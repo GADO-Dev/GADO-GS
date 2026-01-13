@@ -10,11 +10,13 @@
 <br>
 
 <p align="center">
-  <img src="assets/teaser.gif" width="90%" />
+  <img src="./assets/pipeline.png" width="90%" />
 </p>
+
+
 ## 📝 Abstract
 
-> 3D Gaussian Splatting (3DGS) enables high-fidelity, real-time novel view synthesis by modeling scenes with explicit parametric primitives. However, the joint optimization of geometry and appearance in vanilla 3DGS often introduces geometry-appearance ambiguity: high-frequency SH coefficients tend to overfit to incorrect positions, trapping the optimization in local minima characterized by "texture-baked" artifacts and slow convergence. 
+> **3D Gaussian Splatting (3DGS)** enables high-fidelity, real-time novel view synthesis by modeling scenes with explicit parametric primitives. However, the joint optimization of geometry and appearance in vanilla 3DGS often introduces geometry-appearance ambiguity: high-frequency SH coefficients tend to overfit to incorrect positions, trapping the optimization in local minima characterized by "texture-baked" artifacts and slow convergence. 
 >
 > In this paper, we propose **GADO-GS**, a framework achieving minute-level convergence by disentangling geometry from appearance. Instead of a unified update rule, we impose distinct scheduling trajectories to establish structural stability before textural refinement. This "structure-first" evolution is effectively stabilized by temporal spectral filtering of high-frequency harmonics. Furthermore, we leverage multi-view consistency as a feedback signal for adaptive density control, ensuring geometric compactness by eliminating incoherent artifacts. 
 >
@@ -29,8 +31,9 @@
 ## 📊 Performance
 
 <p align="center">
-  <img src="assets/pipeline.png" width="85%" />
+  <img src="./assets/garden_pic_cmp.png" width="85%" />
 </p>
+
 
 | Method                                                       | Mip-NeRF 360 (PSNR) | Train Time (min) |   FPS   |
 | :----------------------------------------------------------- | :-----------------: | :--------------: | :-----: |
