@@ -10,7 +10,7 @@
 <br>
 
 <p align="center">
-  <img src="./assets/pipeline.png" width="90%" />
+  <img src="assets/pipeline.png" width="90%" />
 </p>
 
 
@@ -31,7 +31,7 @@
 ## 📊 Performance
 
 <p align="center">
-  <img src="./assets/garden_pic_cmp.png" width="85%" />
+  <img src="assets/garden_pic_cmp.png" width="85%" />
 </p>
 
 
